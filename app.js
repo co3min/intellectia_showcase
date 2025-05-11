@@ -163,7 +163,7 @@ app.post("/contact", (req, res) => {
   res.render("index", data);
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = 10000;
 app.listen(PORT, () => {
   console.log(`Serverul rulează pe http://localhost:${PORT}`);
 });
